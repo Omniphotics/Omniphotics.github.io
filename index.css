@@ -136,7 +136,7 @@ body {
 #omniphotics {
   position: absolute;
   margin-top: -1vh;
-  font-family: Phage;
+  font-family: Arial;
   font-size: 5vw;
   color: white;
   transition: color .2s;
@@ -152,9 +152,4 @@ body {
   color: #777777;
   width: 98vw;
   text-align: right;
-}
-
-@font-face {
-  font-family: Phage;
-  src: url("/fonts/phage.otf");
 }
