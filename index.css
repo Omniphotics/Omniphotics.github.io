@@ -1,0 +1,160 @@
+body {
+  background-color: #CCCCEE;
+}
+
+#steamS {
+  background-color: #BBFFFF;
+  width: 20vw;
+  height: 25vw;
+  transition: transform .2s;
+  z-index: 0;
+  border: none;
+  outline: none;
+  margin-left: -10px;
+  margin-top: calc(-10px + 58vh);
+  position: absolute;
+}
+
+#steamS:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 25px rgb(0, 0, 0);
+  z-index: 1;
+}
+
+#steamT {
+  background-color: #AADDFF;
+  width: 20vw;
+  height: 25vw;
+  transition: transform .2s;
+  z-index: 0;
+  border: none;
+  outline: none;
+  margin-top: calc(-10px + 58vh);
+  margin-left: calc(-10px + 20vw);
+  position: absolute;
+
+  color: white;
+  font-size: 15vw;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+
+#steamT:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 25px rgb(0, 0, 0);
+  z-index: 1;
+}
+
+#steamE {
+  background-color: #BBBBFF;
+  width: 20vw;
+  height: 25vw;
+  transition: transform .2s;
+  z-index: 0;
+  border: none;
+  outline: none;
+  margin-top: calc(-10px + 58vh);
+  margin-left: calc(-10px + 40vw);
+  position: absolute;
+
+  color: white;
+  font-size: 15vw;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+
+#steamE:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 25px rgb(0, 0, 0);
+  z-index: 1;
+}
+
+#steamA {
+  background-color: #DDCCFF;
+  width: 20vw;
+  height: 25vw;
+  transition: transform .2s;
+  z-index: 0;
+  border: none;
+  outline: none;
+  margin-top: calc(-10px + 58vh);
+  margin-left: calc(-10px + 60vw);
+  position: absolute;
+
+  color: white;
+  font-size: 15vw;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+
+#steamA:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 25px rgb(0, 0, 0);
+  z-index: 1;
+}
+
+#steamM {
+  background-color: #EEBBFF;
+  width: 20vw;
+  height: 25vw;
+  transition: transform .2s;
+  z-index: 0;
+  border: none;
+  outline: none;
+  margin-top: calc(-10px + 58vh);
+  margin-left: calc(-10px + 80vw);
+  position: absolute;
+
+  color: white;
+  font-size: 15vw;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+
+#steamM:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 25px rgb(0, 0, 0);
+  z-index: 1;
+}
+
+#steamLetter {
+  color: white;
+  font-size: 15vw;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+
+#steamText {
+  color: white;
+  font-size: 1.5vw;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+#sunglasses {
+  position: absolute;
+  height: 40vh;
+  width: 105vh;
+  margin-top: 12vh;
+  margin-left: calc(50vw - 52.5vh);
+}
+
+#omniphotics {
+  position: absolute;
+  margin-top: -1vh;
+  font-family: Phage;
+  font-size: 5vw;
+  color: white;
+  transition: color .2s;
+}
+
+#omniphotics:hover {
+  color: black;
+}
+
+#termsOfService {
+  position: absolute;
+  font-family: Arial;
+  color: #777777;
+  width: 98vw;
+  text-align: right;
+}
+
+@font-face {
+  font-family: Phage;
+  src: url(phage.otf);
+}
