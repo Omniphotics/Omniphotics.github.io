@@ -156,5 +156,5 @@ body {
 
 @font-face {
   font-family: Phage;
-  src: url(phage.otf);
+  src: url("/fonts/phage.otf");
 }
