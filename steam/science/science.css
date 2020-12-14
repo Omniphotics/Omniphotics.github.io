@@ -1,23 +1,55 @@
 body {
-  background-color: #BBFFFF;
+  overflow-x: hidden;
 }
 
 #title {
   color: white;
-  font-size: 10vw;
+  font-size: 4vw;
   width: 100vw;
-  text-align: center;
-  font-family: Nunito;
+  text-align: left;
+  font-family: Georgia;
   margin: 0px;
   padding: 0px;
+  margin-top: 200px;
+  margin-left: 150px;
 }
 
-#description {
+#line {
   color: white;
-  font-size: 1.5vw;
+  background-color: white;
+  height: 4px;
+  border-width: 0px;
+  width: 70vw;
+  margin-left: 150px;
+}
+
+#background {
+  background-color: #9DEEEE;
   width: 100vw;
-  text-align: center;
-  font-family: Nunito;
-  margin: 0px;
+  height: 500px;
+  left: 0px;
   padding: 0px;
+  top: -20px;
+  position: absolute;
+  z-index: -1;
+}
+
+#headers {
+  margin-top: 250px;
+  font-size: 75px;
+  margin-left: 8vw;
+}
+
+#paragraph {
+  font-size: 32px;
+  margin-left: 8vw;
+  margin-top: -50px;
+  width: 40vw;
+}
+
+#polarized-filter-gif {
+  margin-top: -500px;
+  margin-left: 45vw;
+  width: 50vw;
+  height: auto;
 }
