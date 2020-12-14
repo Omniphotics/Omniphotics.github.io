@@ -4,7 +4,7 @@ body {
 
 #title {
   color: white;
-  font-size: 4vw;
+  font-size: 100px;
   width: 100vw;
   text-align: left;
   font-family: Georgia;
@@ -19,7 +19,7 @@ body {
   background-color: white;
   height: 4px;
   border-width: 0px;
-  width: 70vw;
+  width: 85vw;
   margin-left: 150px;
 }
 
@@ -81,4 +81,33 @@ body {
   margin-left: 55vw;
   width: 40vw;
   height: auto;
+}
+
+#background2 {
+  background-color: #9DEEEE;
+  width: 100vw;
+  height: 500px;
+  left: 0px;
+  padding: 0px;
+  top: 1700px;
+  position: absolute;
+  z-index: -1;
+}
+
+#omniphotics-science {
+  color: white;
+  font-size: 100px;
+  width: 100vw;
+  text-align: left;
+  font-family: Georgia;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 175px;
+  margin-left: 150px;
+}
+
+#randomBullshit {
+  color: white;
+  font-size: 32px;
+  margin-left: 8vw;
 }
