@@ -137,7 +137,7 @@ body {
 #omniphotics {
   position: absolute;
   margin-top: -1vh;
-  font-family: Arial;
+  font-family: Georgia;
   font-size: 5vw;
   color: white;
   transition: color .2s;
@@ -151,6 +151,5 @@ body {
   position: absolute;
   font-family: Arial;
   color: #777777;
-  width: 98vw;
-  text-align: right;
+  right: 10px;
 }

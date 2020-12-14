@@ -1,0 +1,47 @@
+body {
+  overflow-x: hidden;
+}
+
+#title {
+  color: white;
+  font-size: 100px;
+  width: 100vw;
+  text-align: left;
+  font-family: Georgia;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 120px;
+  margin-left: 150px;
+}
+
+#desc {
+  color: white;
+  font-size: 32;
+  margin-left: 8vw;
+}
+
+#line {
+  color: white;
+  background-color: white;
+  height: 4px;
+  border-width: 0px;
+  width: 85vw;
+  margin-left: 150px;
+}
+
+#background {
+  background-color: #DDCCFF;
+  width: 100vw;
+  height: 500px;
+  left: 0px;
+  padding: 0px;
+  top: -20px;
+  position: absolute;
+  z-index: -1;
+}
+
+#desc {
+  color: white;
+  font-size: 32;
+  margin-left: 8vw;
+}
