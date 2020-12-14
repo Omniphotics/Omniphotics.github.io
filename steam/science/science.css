@@ -34,13 +34,13 @@ body {
   z-index: -1;
 }
 
-#headers {
+#polarization {
   margin-top: 250px;
   font-size: 75px;
   margin-left: 8vw;
 }
 
-#paragraph {
+#polarization-paragraph {
   font-size: 32px;
   margin-left: 8vw;
   margin-top: -50px;
@@ -51,5 +51,34 @@ body {
   margin-top: -500px;
   margin-left: 45vw;
   width: 50vw;
+  height: auto;
+}
+
+#line2 {
+  color: #9DEEEE;
+  background-color: #9DEEEE;
+  height: 4px;
+  border-width: 0px;
+  width: 70vw;
+  margin-left: 150px;
+}
+
+#polarized-lenses {
+  margin-top: 60px;
+  font-size: 75px;
+  margin-left: 8vw;
+}
+
+#polarized-lenses-paragraph {
+  font-size: 32px;
+  margin-left: 8vw;
+  margin-top: -50px;
+  width: 40vw;
+}
+
+#polarized-lenses-image {
+  margin-top: -500px;
+  margin-left: 55vw;
+  width: 40vw;
   height: auto;
 }
