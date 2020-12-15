@@ -45,3 +45,68 @@ body {
   font-size: 32;
   margin-left: 8vw;
 }
+
+#introduction {
+  margin-top: 250px;
+  font-size: 75px;
+  margin-left: 8vw;
+}
+
+#intro-paragraph {
+  font-size: 32px;
+  margin-left: 8vw;
+  margin-top: -50px;
+  width: 85vw;
+}
+
+#line2 {
+  color: #EEBBFF;
+  background-color: #EEBBFF;
+  height: 4px;
+  border-width: 0px;
+  width: 70vw;
+  margin-left: 150px;
+}
+
+#light-as-a-wave {
+  margin-top: 60px;
+  font-size: 75px;
+  margin-left: 8vw;
+}
+
+#laaw-paragraph {
+  font-size: 32px;
+  margin-left: 8vw;
+  margin-top: -50px;
+  width: 80vw;
+}
+
+#matrix {
+  width: 50vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 50px;
+  margin-top: -25px;
+}
+
+#braket {
+  width: 50vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 50px;
+  margin-top: -25px;
+}
+
+#braket2 {
+  width: 50vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 70px;
+  margin-top: -25px;
+}

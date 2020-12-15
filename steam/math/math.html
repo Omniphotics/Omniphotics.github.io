@@ -5,3 +5,65 @@
 <hr id = "line">
 <p id = "background"></p>
 <p id = "desc">Master the math beneath Omniphotics</p>
+
+<p id = "introduction">Introduction</p>
+<p id = "intro-paragraph">
+  Before starting this section, I wanted to preface with a breif introduction and
+  disclaimer. The math behind Omniphotics gets pretty intense, and I'm going to dive
+  deep into analyzing quantum mechanical situations from a mathematical perspective.
+  To understand these explanations in full requires prerequisites such as college-level
+  math and physics. I don't exactly have the time to give you a full course on either
+  of those, so I'm just going to give you information that's directly relevent to
+  Omniphotics, and I apologize if any of it is difficult to understand.
+</p>
+
+<hr id = "line2">
+
+<p id = "light-as-a-wave">Light as a Wave</p>
+<p id = "laaw-paragraph">
+  As we all know, light can be modeled as both a particle and a wave. For the purposes
+  of understanding polarization, it's more useful to think of it as a wave. Specifically,
+  we can treat light as a cosine wave. A horiztonally polarized light wave can be
+  represented by a matrix with the following <i>x</i> and <i>y</i> components:
+</p>
+
+<img src = "images/matrix.png" id = "matrix">
+
+<p id = "laaw-paragraph">
+  The x-component being the standard cosine function with amplitude <i>A<sub>x</sub></i>,
+  frequency <i>f<sub>x</sub></i>, and phase shift &Phi;<sub>x</sub>, and the
+  <i>y</i>-component being 0. Similarly, you can represent vertically polarized light as
+  so:
+</p>
+
+<img src = "images/matrix2.png" id = "matrix">
+
+<p id = "laaw-paragraph">
+  In quantum mechanics, we often represent this using what's called "Bra-ket" notation,
+  a system that uses "bras" (denoted by "&#10092; &#10072") and "kets" (denoted by
+  "&#10072 &#10093;")
+  to denote a vector in an abstract vector space, andto represent the state of a quantum
+  system. The two vectors above would be written as:
+</p>
+
+<img src = "images/braket.png" id = "matrix">
+<img src = "images/braket2.png" id = "braket2">
+
+<p id = "laaw-paragraph">
+  With the functions next to the kets representing the component of the vector in that
+  direction. These waves can also be added together to create a diagonal wave:
+</p>
+
+<img src = "images/diagonal-wave.png" id = "matrix">
+
+<p id = "laaw-paragraph">
+  Note that the waves have no phase shift or amplitude for this. This would create a perfect diagonal
+  vector along the <i>y</i> = <i>x</i> line. Giving the two vectors different phase shifts
+  would create different shapes and types of polarization. Adding different amplitudes
+  would create a diagonal vector that is <i>not</i> along the <i>y</i> = <i>x</i> line,
+  and adding different phase shifts could instead create an ellipse. If you have two
+  waves which have the same amplitude but phase shifts that are 90&deg (&pi;/2 rad) apart,
+  they will trace out a circle, creating what is known as "circularly polarized light":
+</p>
+
+<img src = "images/circular-polarization.png" id = "matrix">
