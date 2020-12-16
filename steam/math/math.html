@@ -3,7 +3,7 @@
 
   <head>
     <title>Omniphotics - Math</title>
-    <link href = "math.css" type = "text/css" rel = "stylesheet">
+    <link href="math.css" type="text/css" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,13 +11,13 @@
   </head>
 
   <body>
-    <p id = "title">The Math Beneath Omniphotics</p>
-    <hr id = "line">
-    <p id = "background"></p>
-    <p id = "desc">Master the math beneath Omniphotics</p>
+    <p id="title">The Math Beneath Omniphotics</p>
+    <hr id="line">
+    <p id="background"></p>
+    <p id="desc">Master the math beneath Omniphotics</p>
 
-    <p id = "introduction">Introduction</p>
-    <p id = "intro-paragraph">
+    <p id="introduction">Introduction</p>
+    <p id="intro-paragraph">
       Before starting this section, I wanted to preface with a breif introduction and
       disclaimer. The math behind Omniphotics gets pretty intense, and I'm going to dive
       deep into analyzing quantum mechanical situations from a mathematical perspective.
@@ -27,28 +27,28 @@
       Omniphotics, and I apologize if any of it is difficult to understand.
     </p>
 
-    <hr id = "line2">
+    <hr id="line2">
 
-    <p id = "light-as-a-wave">Light as a Wave</p>
-    <p class = "laaw-paragraph">
+    <p id="light-as-a-wave">Light as a Wave</p>
+    <p class="laaw-paragraph">
       As we all know, light can be modeled as both a particle and a wave. For the purposes
       of understanding polarization, it's more useful to think of it as a wave. Specifically,
       we can treat light as a cosine wave. A horiztonally polarized light wave can be
       represented by a matrix with the following <i>x</i> and <i>y</i> components:
     </p>
 
-    <img src = "images/matrix.png" id = "matrix">
+    <img src="images/matrix.png" class="matrix">
 
-    <p class = "laaw-paragraph">
+    <p class="laaw-paragraph">
       The x-component being the standard cosine function with amplitude <i>A<sub>x</sub></i>,
       frequency <i>f<sub>x</sub></i>, and phase shift &Phi;<sub>x</sub>, and the
       <i>y</i>-component being 0. Similarly, you can represent vertically polarized light as
       so:
     </p>
 
-    <img src = "images/matrix2.png" id = "matrix">
+    <img src="images/matrix2.png" class="matrix">
 
-    <p class = "laaw-paragraph">
+    <p class="laaw-paragraph">
       In quantum mechanics, we often represent this using what's called "Bra-ket" notation,
       a system that uses "bras" (denoted by "&#10092; &#10072") and "kets" (denoted by
       "&#10072 &#10093;")
@@ -56,17 +56,17 @@
       system. The two vectors above would be written as:
     </p>
 
-    <img src = "images/braket.png" id = "matrix">
-    <img src = "images/braket2.png" id = "matrix">
+    <img src="images/braket.png" class="matrix">
+    <img src="images/braket2.png" class="matrix">
 
-    <p class = "laaw-paragraph">
+    <p class="laaw-paragraph">
       With the functions next to the kets representing the component of the vector in that
       direction. These waves can also be added together to create a diagonal wave:
     </p>
 
-    <img src = "images/diagonal-wave.png" id = "matrix">
+    <img src="images/diagonal-wave.png" class="matrix">
 
-    <p class = "laaw-paragraph">
+    <p class="laaw-paragraph">
       Note that the waves have no phase shift or amplitude for this. This would create a perfect diagonal
       vector along the <i>y</i> = <i>x</i> line. Giving the two vectors different phase shifts
       would create different shapes and types of polarization. Adding different amplitudes
@@ -76,12 +76,15 @@
       they will trace out a circle, creating what is known as "circularly polarized light":
     </p>
 
-    <img src = "images/circular-polarization.png" id = "matrix">
+    <img src="images/circular-polarization.png" class="matrix">
 
-    <p class = "laaw-paragraph">
+    <p class="laaw-paragraph">
       Of course these again have to have equal amplitudes, because that determines the magnitude
-      of the vector and thus the radius of the circle. 
+      of the vector and thus the radius of the circle. These cosine functions can also be
+      represented with a complex number:
     </p>
+
+    <img src="images/complex.png" class="matrix">
 
   </body>
 </html>
