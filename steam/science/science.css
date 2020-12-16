@@ -9,7 +9,6 @@ body {
   text-align: left;
   font-family: Georgia;
   margin: 0px;
-  padding: 0px;
   margin-top: 7vw;
   margin-left: 8vw;
 }
@@ -41,21 +40,21 @@ body {
 }
 
 #polarization {
-  margin-top: 14vw;
-  font-size: 75px;
+  margin-top: 11vw;
+  font-size: 4vw;
   margin-left: 8vw;
 }
 
 #polarization-paragraph {
-  font-size: 32px;
+  font-size: 1.8vw;
   margin-left: 8vw;
-  margin-top: -50px;
+  margin-top: -2vw;
   width: 40vw;
 }
 
 #polarized-filter-gif {
-  margin-top: -500px;
-  margin-left: 45vw;
+  margin-top: -30vw;
+  margin-left: 47vw;
   width: 50vw;
   height: auto;
 }
@@ -66,24 +65,24 @@ body {
   height: 4px;
   border-width: 0px;
   width: 70vw;
-  margin-left: 150px;
+  margin-left: 8vw;
 }
 
 #polarized-lenses {
-  margin-top: 60px;
-  font-size: 75px;
+  margin-top: 3vw;
+  font-size: 4vw;
   margin-left: 8vw;
 }
 
 #polarized-lenses-paragraph {
-  font-size: 32px;
+  font-size: 1.8vw;
   margin-left: 8vw;
-  margin-top: -50px;
+  margin-top: -2vw;
   width: 40vw;
 }
 
 #polarized-lenses-image {
-  margin-top: -500px;
+  margin-top: -30vw;
   margin-left: 55vw;
   width: 40vw;
   height: auto;
@@ -92,7 +91,7 @@ body {
 #background2 {
   background-color: #9DEEEE;
   width: 100vw;
-  height: 500px;
+  height: 27vw;
   left: 0px;
   padding: 0px;
   top: 1700px;
@@ -102,19 +101,19 @@ body {
 
 #omniphotics-science {
   color: white;
-  font-size: 100px;
+  font-size: 6vw;
   width: 100vw;
   text-align: left;
   font-family: Georgia;
   margin: 0px;
   padding: 0px;
-  margin-top: -400px;
+  margin-top: -23vw;
   margin-left: 8vw;
 }
 
 #randomBullshit {
   color: white;
-  font-size: 32px;
+  font-size: 1.8vw;
   margin-left: 8vw;
 }
 
