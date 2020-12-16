@@ -22,7 +22,7 @@ body {
 #line {
   color: white;
   background-color: white;
-  height: 4px;
+  height: 0.2vw;
   border-width: 0px;
   width: 85vw;
   margin-left: 8vw;
@@ -62,7 +62,7 @@ body {
 #line2 {
   color: #9DEEEE;
   background-color: #9DEEEE;
-  height: 4px;
+  height: 0.2vw;
   border-width: 0px;
   width: 70vw;
   margin-left: 8vw;
