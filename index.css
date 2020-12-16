@@ -33,11 +33,12 @@ body {
 }
 
 #sunglasses {
-  position: absolute;
-  height: 40vh;
-  width: 105vh;
-  margin-top: 12vh;
-  margin-left: calc(50vw - 52.5vh);
+  width: 50vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  display: block;
 }
 
 #omniphotics {
@@ -60,4 +61,5 @@ body {
   font-family: Arial;
   color: #777777;
   right: 10px;
+  top: 10px;
 }
