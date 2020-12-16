@@ -39,13 +39,13 @@ body {
   z-index: -1;
 }
 
-#polarization {
+.header {
   margin-top: 11vw;
   font-size: 4vw;
   margin-left: 8vw;
 }
 
-#polarization-paragraph {
+.paragraph {
   font-size: 1.8vw;
   margin-left: 8vw;
   margin-top: -2vw;
@@ -68,21 +68,8 @@ body {
   margin-left: 8vw;
 }
 
-#polarized-lenses {
-  margin-top: 3vw;
-  font-size: 4vw;
-  margin-left: 8vw;
-}
-
-#polarized-lenses-paragraph {
-  font-size: 1.8vw;
-  margin-left: 8vw;
-  margin-top: -2vw;
-  width: 40vw;
-}
-
 #polarized-lenses-image {
-  margin-top: -30vw;
+  margin-top: -40vw;
   margin-left: 55vw;
   width: 40vw;
   height: auto;
