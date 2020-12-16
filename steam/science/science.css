@@ -118,8 +118,9 @@ body {
 }
 
 #logo {
-  margin-top: -400px;
-  margin-left: 1400px;
+  margin-top: -20vw;
+  margin-left: 72vw;
   width: 20vw;
   height: auto;
+  position: absolute;
 }
