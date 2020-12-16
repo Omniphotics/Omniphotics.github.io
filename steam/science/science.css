@@ -96,8 +96,8 @@ body {
   left: 0px;
   padding: 0px;
   top: 1700px;
-  position: absolute;
   z-index: -1;
+  margin-left: -10px;
 }
 
 #omniphotics-science {
@@ -108,8 +108,8 @@ body {
   font-family: Georgia;
   margin: 0px;
   padding: 0px;
-  margin-top: 175px;
-  margin-left: 150px;
+  margin-top: -400px;
+  margin-left: 8vw;
 }
 
 #randomBullshit {
@@ -119,8 +119,8 @@ body {
 }
 
 #logo {
-  margin-top: -360px;
-  margin-left: 67vw;
+  margin-top: -400px;
+  margin-left: 1400px;
   width: 20vw;
   height: auto;
 }
