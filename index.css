@@ -20,31 +20,6 @@ body {
   z-index: 1;
 }
 
-#steamS {
-  background-color: #BBFFFF;
-  margin-left: -10px;
-}
-
-#steamT {
-  background-color: #AADDFF;
-  margin-left: calc(-10px + 20vw);
-}
-
-#steamE {
-  background-color: #BBBBFF;
-  margin-left: calc(-10px + 40vw);
-}
-
-#steamA {
-  background-color: #DDCCFF;
-  margin-left: calc(-10px + 60vw);
-}
-
-#steamM {
-  background-color: #EEBBFF;
-  margin-left: calc(-10px + 80vw);
-}
-
 .steamLetter {
   color: white;
   font-size: 15vw;
