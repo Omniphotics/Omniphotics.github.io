@@ -4,20 +4,19 @@ body {
 
 #title {
   color: white;
-  font-size: 100px;
+  font-size: 5vw;
   width: 100vw;
   text-align: left;
   font-family: Georgia;
   margin: 0px;
-  padding: 0px;
-  margin-top: 120px;
-  margin-left: 150px;
+  margin-top: 7vw;
+  margin-left: 8vw;
 }
 
 #desc {
   color: white;
-  font-size: 32px;
-  margin-left: 8vw;
+  font-size: 2vw;
+  margin-left: 8vw;;
 }
 
 #line {
@@ -26,13 +25,13 @@ body {
   height: 4px;
   border-width: 0px;
   width: 85vw;
-  margin-left: 150px;
+  margin-left: 8vw;
 }
 
 #background {
   background-color: #EEBBFF;
   width: 100vw;
-  height: 500px;
+  height: 25vw;
   left: 0px;
   padding: 0px;
   top: -20px;
@@ -40,20 +39,13 @@ body {
   z-index: -1;
 }
 
-#introduction {
-  margin-top: 250px;
-  font-size: 75px;
+.header {
+  margin-top: 11vw;
+  font-size: 4vw;
   margin-left: 8vw;
 }
 
-#intro-paragraph {
-  font-size: 32px;
-  margin-left: 8vw;
-  margin-top: -50px;
-  width: 85vw;
-}
-
-#line2 {
+.line2 {
   color: #EEBBFF;
   background-color: #EEBBFF;
   height: 4px;
@@ -62,13 +54,7 @@ body {
   margin-left: 150px;
 }
 
-#light-as-a-wave {
-  margin-top: 60px;
-  font-size: 75px;
-  margin-left: 8vw;
-}
-
-.laaw-paragraph {
+.paragraph {
   font-size: 32px;
   margin-left: 8vw;
   margin-top: -50px;
