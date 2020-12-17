@@ -111,3 +111,9 @@ body {
   height: auto;
   position: absolute;
 }
+
+@media screen and (min-height: 200vw) {
+  #background2 {
+    height: 50vw;
+  }
+}
