@@ -2,37 +2,42 @@ body {
   overflow-x: hidden;
 }
 
+img {
+  width: 100vw;
+  height: auto;
+  margin-top: 7vw;
+}
+
 #title {
   color: white;
-  font-size: 100px;
+  font-size: 5vw;
   width: 100vw;
   text-align: left;
   font-family: Georgia;
   margin: 0px;
-  padding: 0px;
-  margin-top: 120px;
-  margin-left: 150px;
+  margin-top: 7vw;
+  margin-left: 8vw;
 }
 
 #desc {
   color: white;
-  font-size: 32;
+  font-size: 2vw;
   margin-left: 8vw;
 }
 
 #line {
   color: white;
   background-color: white;
-  height: 4px;
+  height: 0.2vw;
   border-width: 0px;
   width: 85vw;
-  margin-left: 150px;
+  margin-left: 8vw;
 }
 
 #background {
   background-color: #BBBBFF;
   width: 100vw;
-  height: 500px;
+  height: 25vw;
   left: 0px;
   padding: 0px;
   top: -20px;
@@ -40,8 +45,15 @@ body {
   z-index: -1;
 }
 
-#desc {
-  color: white;
-  font-size: 32;
+.header {
+  margin-top: 11vw;
+  font-size: 4vw;
   margin-left: 8vw;
+}
+
+.paragraph {
+  font-size: 1.8vw;
+  margin-left: 8vw;
+  margin-top: -2vw;
+  width: 80vw;
 }
