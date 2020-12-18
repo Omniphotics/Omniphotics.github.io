@@ -2,6 +2,20 @@ body {
   overflow-x: hidden;
 }
 
+#home {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  background-image: url("/images/home-icon.png");
+  background-size: contain;
+  width: 4vw;
+  height: 3.5vw;
+}
+
+#home:focus {
+  border: none;
+  outline: none;
+}
+
 #title {
   color: white;
   font-size: 5vw;
@@ -40,18 +54,86 @@ body {
 }
 
 .marker {
-  background:#ED1C24;
-  height:2px;
-  right:0;
-  position:absolute;
-  top:35px;
-  width:7px
+  height: 0px;
+  width: 0px;
+  position: absolute;
+  right: 0;
+  margin-top: 12vw;
+  margin-right: -4.5vw;
+  border-top: 3vw solid transparent;
+  border-bottom: 3vw solid transparent;
+  border-left: 3vw solid black;
 }
+
 .pointer {
-  height:72px;
-  position:absolute;
-  top:82px;
-  width:72px;
-  border:1px solid red;
-  left:100px;
+  background-color: black;
+  height: 30vw;
+  width: 30vw;
+  position: absolute;
+  border: 2vw solid black;
+  margin-left: 35vw;
+  margin-top: 50vw;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+#still {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 30vw;
+  width: 30vw;
+  position: absolute;
+  border: 2vw solid black;
+  margin-left: 35vw;
+  margin-top: 50vw;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+#drag-me {
+  position: absolute;
+  margin-top: 62vw;
+  margin-left: 72vw;
+
+  khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#background2 {
+  background-color: #AADDFF;
+  width: 100vw;
+  height: 27vw;
+  left: 0px;
+  padding: 0px;
+  margin-top: 2000px;
+  z-index: -1;
+  margin-left: -10px;
+}
+
+#omniphotics-technology {
+  color: white;
+  font-size: 5vw;
+  width: 100vw;
+  text-align: left;
+  font-family: Georgia;
+  margin: 0px;
+  padding: 0px;
+  margin-top: -23vw;
+  margin-left: 8vw;
+}
+
+#randomBullshit {
+  color: white;
+  font-size: 1.8vw;
+  margin-left: 8vw;
+}
+
+#logo {
+  margin-top: -20vw;
+  margin-left: 72vw;
+  width: 20vw;
+  height: auto;
+  position: absolute;
 }

@@ -1,8 +1,71 @@
-<link href="technology.css" type="text/css" rel="stylesheet">
-<link href="/images/favicon.png" type="image/png" rel="shortcut icon"/>
-<script src = "technology.js" rel = "script" type = "text/javascript"/>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="technology.css" type="text/css" rel="stylesheet">
+    <link href="/images/favicon.png" type="image/png" rel="shortcut icon"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<p id="title">The Technology in Omniphotics</p>
-<hr id="line">
-<p id="background"></p>
-<p id="desc">Take in the technology in Omniphotics</p>
+    <script>
+      $(document).ready(function() {
+        var img = $(".pointer");
+        var offset = img.offset();
+        var mouseDown = false;
+
+        function mouse(evt) {
+          if (mouseDown == true) {
+            var center_x = (offset.left) + (img.width() / 2);
+            var center_y = (offset.top)  + (img.height() / 2);
+            var mouse_x = evt.pageX;
+            var mouse_y = evt.pageY;
+            var radians = Math.atan2(mouse_x - center_x, mouse_y - center_y);
+            var degree = (radians * (180 / Math.PI) * -1) + 90;
+            img.css('-moz-transform', 'rotate(' + degree + 'deg)');
+            img.css('-webkit-transform', 'rotate(' + degree + 'deg)');
+            img.css('-o-transform', 'rotate(' + degree + 'deg)');
+            img.css('-ms-transform', 'rotate(' + degree + 'deg)');
+
+            var opacity = -0.5 * Math.cos(rad(2 * degree)) + 0.5;
+            img.css("background-color", "rgba(0, 0, 0, " + opacity + ")");
+          }
+        }
+
+        img.on("mousedown", function(e) {
+          mouseDown = true;
+          $(document).mousemove(mouse);
+        });
+
+        $(document).mouseup(function(e) {
+          mouseDown = false;
+        });
+
+        function rad(a) {
+          return a * Math.PI / 180;
+        }
+      });
+    </script>
+  </head>
+
+  <body>
+    <button id="home" onclick="window.location.href='/index.html'"></button>
+    <p id = "title"> The Technology in Omniphotics</p>
+    <hr id = "line">
+    <p id = "desc">Take in the technology in Omniphotics</p>
+    <p id="background"></p>
+
+    <div class="pointer">
+        <div class="marker"></div>
+    </div>
+    <div id="still"></div>
+    <img src="images/drag-me.png" id="drag-me">
+
+    <p id="background2"></p>
+    <p id="omniphotics-technology">Omniphotics Technology</p>
+    <p id="randomBullshit">
+      Copyright &copy 2020 by A Nonexistant Inc. <br>
+      Prior Edition &copy 2020 by An Equally Nonexistent Inc. <br>
+      All rights not reserved. Any part of this website may be reproduced <br>
+      without permission from the publisher, especially considering he is 17.
+    </p>
+    <img src="/images/favicon.png" id="logo">
+  </body>
+</html>
