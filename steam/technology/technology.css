@@ -38,3 +38,20 @@ body {
   position: absolute;
   z-index: -1;
 }
+
+.marker {
+  background:#ED1C24;
+  height:2px;
+  right:0;
+  position:absolute;
+  top:35px;
+  width:7px
+}
+.pointer {
+  height:72px;
+  position:absolute;
+  top:82px;
+  width:72px;
+  border:1px solid red;
+  left:100px;
+}
