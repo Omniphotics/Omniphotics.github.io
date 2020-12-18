@@ -5,13 +5,30 @@
     <title>Omniphotics - Home</title>
     <link href = "index.css" type = "text/css" rel = "stylesheet">
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Nicholas Iapalucci">
+
+
+    <script>
+      $(document).ready(function() {
+        var omni = document.getElementById("omniphotics");
+        omni.addEventListener("mouseenter", function(event) {
+          $("#question").fadeIn(300);
+        });
+        omni.addEventListener("mouseleave", function() {
+          $("#question").fadeOut(300);
+        });
+    });
+
+    </script>
   </head>
 
   <body>
-    <h1 id="omniphotics">Omniphotics</h1>
+    <button id="omniphotics"><strong>Omniphotics</strong></button>
+    <h1 id="question">?</h1>
+
     <a id="termsOfService" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Terms of Service</a>
     <img src = "/images/sunglasses.png" id="sunglasses">
 

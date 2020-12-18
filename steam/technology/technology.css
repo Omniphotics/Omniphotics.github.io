@@ -23,7 +23,7 @@ body {
   text-align: left;
   font-family: Georgia;
   margin: 0px;
-  margin-top: 7vw;
+  margin-top: 2vw;
   margin-left: 8vw;
 }
 
@@ -71,7 +71,7 @@ body {
   width: 30vw;
   position: absolute;
   border: 2vw solid black;
-  margin-left: 35vw;
+  margin-left: 32vw;
   margin-top: 50vw;
   border-radius: 50%;
   z-index: 2;
@@ -83,7 +83,7 @@ body {
   width: 30vw;
   position: absolute;
   border: 2vw solid black;
-  margin-left: 35vw;
+  margin-left: 32vw;
   margin-top: 50vw;
   border-radius: 50%;
   z-index: 1;
@@ -92,7 +92,7 @@ body {
 #drag-me {
   position: absolute;
   margin-top: 62vw;
-  margin-left: 72vw;
+  margin-left: 70vw;
 
   khtml-user-select: none;
   -o-user-select: none;

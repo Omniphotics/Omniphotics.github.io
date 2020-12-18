@@ -42,14 +42,33 @@ body {
 }
 
 #omniphotics {
+  background: none;
+  border: none;
   position: absolute;
   font-family: Georgia;
   font-size: 5vw;
   color: white;
-  transition: color .2s;
+  transition: color .3s;
   top: 0;
   padding: 0;
   margin-top: 0;
+}
+
+#omniphotics:focus {
+  outline: none;
+  border: none;
+}
+
+#question {
+  position: absolute;
+  font-family: Georgia;
+  font-size: 5vw;
+  color: black;
+  top: 0;
+  padding: 0;
+  margin-top: 0;
+  margin-left: 33.3vw;
+  display: none;
 }
 
 #omniphotics:hover {
