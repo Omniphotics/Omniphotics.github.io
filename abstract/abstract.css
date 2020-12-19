@@ -75,13 +75,21 @@ img {
   width: 80vw;
 }
 
+.link {
+  margin-top: 20vw;
+  font-size: 2.4vw;
+  margin-left: 8vw;
+  color: #CCCCEE;
+  text-decoration: none;
+}
+
 #background2 {
   background-color: #CCCCEE;
   width: 100vw;
   height: 27vw;
   left: 0px;
   padding: 0px;
-  top: 1700px;
+  top: 2000px;
   z-index: -1;
   margin-left: -10px;
 }
