@@ -16,7 +16,7 @@ body {
 
 #desc {
   color: white;
-  font-size: 32;
+  font-size: 2vw;
   margin-left: 8vw;
 }
 
@@ -40,8 +40,15 @@ body {
   z-index: -1;
 }
 
-#desc {
-  color: white;
-  font-size: 32;
+.header {
+  margin-top: 11vw;
+  font-size: 4vw;
   margin-left: 8vw;
+}
+
+.paragraph {
+  font-size: 1.8vw;
+  margin-left: 8vw;
+  margin-top: -2vw;
+  width: 80vw;
 }
