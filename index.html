@@ -14,9 +14,11 @@
       $(document).ready(function() {
         var omni = document.getElementById("omniphotics");
         omni.addEventListener("mouseenter", function(event) {
+          $("#question").stop(true, true);
           $("#question").fadeIn(300);
         });
         omni.addEventListener("mouseleave", function() {
+          $("#question").stop(true, true);
           $("#question").fadeOut(300);
         });
     });
