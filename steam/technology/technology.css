@@ -115,6 +115,8 @@ body {
   position: absolute;
   margin-top: 15vw;
   margin-left: 70vw;
+  width: 25vw;
+  height: auto;
 
   khtml-user-select: none;
   -o-user-select: none;
