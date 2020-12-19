@@ -1,0 +1,113 @@
+body {
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  height: auto;
+}
+
+
+#home {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  background-image: url("/images/home-icon.png");
+  background-size: contain;
+  width: 4vw;
+  height: 3.5vw;
+}
+
+#home:focus {
+  border: none;
+  outline: none;
+}
+
+#title {
+  color: white;
+  font-size: 5vw;
+  width: 100vw;
+  text-align: left;
+  font-family: Georgia;
+  margin: 0px;
+  margin-top: 2vw;
+  margin-left: 8vw;
+}
+
+#desc {
+  color: white;
+  font-size: 2vw;
+  margin-left: 8vw;
+}
+
+#line {
+  color: white;
+  background-color: white;
+  height: 0.2vw;
+  border-width: 0px;
+  width: 85vw;
+  margin-left: 8vw;
+}
+
+#background {
+  background-color: #CCCCEE;
+  width: 100vw;
+  height: 25vw;
+  left: 0px;
+  padding: 0px;
+  top: -20px;
+  position: absolute;
+  z-index: -1;
+}
+
+.header {
+  margin-top: 11vw;
+  font-size: 4vw;
+  margin-left: 8vw;
+}
+
+.paragraph {
+  font-size: 1.8vw;
+  margin-left: 8vw;
+  margin-top: -2vw;
+  width: 80vw;
+}
+
+#background2 {
+  background-color: #CCCCEE;
+  width: 100vw;
+  height: 27vw;
+  left: 0px;
+  padding: 0px;
+  top: 1700px;
+  z-index: -1;
+  margin-left: -10px;
+}
+
+#omniphotics-science {
+  color: white;
+  font-size: 6vw;
+  width: 100vw;
+  text-align: left;
+  font-family: Georgia;
+  margin: 0px;
+  padding: 0px;
+  margin-top: -23vw;
+  margin-left: 8vw;
+}
+
+#randomBullshit {
+  color: white;
+  font-size: 1.8vw;
+  margin-left: 8vw;
+}
+
+#logo {
+  margin-top: -20vw;
+  margin-left: 72vw;
+  width: 20vw;
+  height: auto;
+  position: absolute;
+}
