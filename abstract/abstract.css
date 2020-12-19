@@ -59,6 +59,15 @@ video {
   margin-left: 8vw;
 }
 
+.line2 {
+  color: #CCCCEE;
+  background-color: #CCCCEE;
+  height: 0.2vw;
+  border-width: 0px;
+  width: 70vw;
+  margin-left: 8vw;
+}
+
 #background {
   background-color: #CCCCEE;
   width: 100vw;
