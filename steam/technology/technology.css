@@ -53,6 +53,19 @@ body {
   z-index: -1;
 }
 
+.header {
+  margin-top: 11vw;
+  font-size: 4vw;
+  margin-left: 8vw;
+}
+
+.paragraph {
+  font-size: 1.8vw;
+  margin-left: 8vw;
+  margin-top: -2vw;
+  width: 40vw;
+}
+
 .marker {
   height: 0px;
   width: 0px;

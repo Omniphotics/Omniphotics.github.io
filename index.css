@@ -37,7 +37,7 @@ body {
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 150px;
+  margin-top: calc((5vw + 55vh)/2 - 10vw);
   display: block;
 }
 
