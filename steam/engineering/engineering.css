@@ -22,6 +22,20 @@ img {
   margin-left: 8vw;
 }
 
+#home {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  background-image: url("/images/home-icon.png");
+  background-size: contain;
+  width: 4vw;
+  height: 3.5vw;
+}
+
+#home:focus {
+  border: none;
+  outline: none;
+}
+
 #desc {
   color: white;
   font-size: 2vw;
