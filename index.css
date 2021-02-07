@@ -64,6 +64,14 @@ body {
   margin-top: 0;
 }
 
+#subtitle {
+  font-size: 2vw;
+  color: white;
+  font-family: Georgia;
+  position: absolute;
+  top: 4vw;
+}
+
 #omniphotics:focus {
   outline: none;
   border: none;
